@@ -1,0 +1,51 @@
+.main {
+    padding: 2rem;
+
+    .products {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 2rem;
+
+        .product {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            background-color: #000000;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 1rem;
+            text-align: center;
+
+            .price {
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                color: $color6;
+                font-weight: bold;
+                margin: 1rem 0;
+            }
+
+            .add-to-cart {
+                box-shadow:inset 0px 0px 14px -3px #000000;
+                background:linear-gradient(to bottom, #eeff00 5%, #ffd500 100%);
+                background-color:#eeff00;
+                border-radius:6px;
+                border:1px solid #ffffff;
+                display:inline-block;
+                cursor:pointer;
+                color:#000000;
+                font-family:Arial;
+                font-size:21px;
+                font-weight:bold;
+                padding:25px 41px;
+                text-decoration:none;
+                transition: background-color 0.3s ease;
+
+                &:hover {
+                    background-color: darken($color2, 10%);
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,59 @@
+#clicker-container {
+  text-align: center;
+  background: $color1;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(255, 255, 255, 0);
+}
+
+#click-button {
+  display: flex;
+  flex-wrap: wrap;
+  background: linear-gradient(to bottom, #fe1a00 5%, #ce0100 100%);
+  background-color: #fe1a00;
+  border-radius: 22px;
+  border: 12px solid #d83526;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 28px;
+  font-weight: bold;
+  padding: 32px 76px;
+  text-decoration: none;
+}
+
+#click-button:hover {
+  background: #fe00c3;
+}
+
+#score {
+  font-weight: bold;
+  color: #ffffff;
+}
+
+#clear-button {
+  display: flex;
+  flex-wrap: wrap;
+  background: linear-gradient(to bottom, #000000 5%, #000000 100%);
+  background-color: #000000;
+  border-radius: 36px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 23px;
+  font-weight: bold;
+  padding: 13px 7px;
+  text-decoration: none;
+}
+
+#clear-button:hover {
+  background: linear-gradient(to bottom, #000000 5%, #000000 100%);
+  background-color: #000000;
+}
+
+#clear-button:active {
+  position: relative;
+  top: 1px;
+}

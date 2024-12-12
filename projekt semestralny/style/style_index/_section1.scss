@@ -1,0 +1,28 @@
+.sekcja1 {
+  background-color: $color1;
+  padding: $font2;
+  border-left: $font3 solid $color5;
+  border-top: $font3 solid $color5;
+  border-right: $font3 solid $color5;
+  &__content {
+    width: auto;
+    height: auto;
+    @include center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    &__image {
+      width: 500px;
+      img {
+        width: 100%;
+      }
+    }
+    &__text {
+      @include center;
+      display: flex;
+    }
+  }
+h1 {
+  padding-bottom: 25px;
+}
+}

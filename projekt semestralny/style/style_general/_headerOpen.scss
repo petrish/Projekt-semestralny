@@ -1,0 +1,56 @@
+.header__menu__open {
+  width: 450px;
+  height: auto;
+  background-color: $color1;
+  border: 0.7em solid $color5;
+  display: none;
+  z-index: 10;
+  flex-wrap: wrap;
+  position: sticky;
+  top: 15vh;
+  padding: 3em;
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 6vh;
+    li {
+      button {
+        background: linear-gradient(to bottom, #19fadc 5%, #000000 100%);
+        background-color: #19fadc;
+        border-radius: 15px;
+        border: 1px solid #ffffff;
+        display: inline-block;
+        cursor: pointer;
+        color: #ffffff;
+        font-family: Arial;
+        font-size: 24px;
+        font-weight: bold;
+        padding: 13px 76px;
+        text-decoration: none;
+        &:hover {
+          background: linear-gradient(to bottom, #000000 5%, #19fadc 100%);
+          background-color: #000000;
+        }
+        &:active {
+          position: relative;
+          top: 1px;
+        }
+      }
+      button:hover {
+        background: aqua;
+        background-color: aqua;
+      }
+      button:active {
+        position: relative;
+        top: 1px;
+      }
+    }
+  }
+  a {
+    text-decoration: none;
+    font-size: $font1;
+  }
+}

@@ -1,0 +1,17 @@
+.skecjaHTML {
+  background-color: $color1;
+  padding: $font1;
+  border-top: $font3 solid $color5;
+  border-left: $font3 solid $color5;
+  border-right: $font3 solid $color5;
+  border-bottom: $font3 solid $color5;
+
+  &__content {
+    @include center;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    gap: 20px;
+    font-size: $font3;
+  }
+}
